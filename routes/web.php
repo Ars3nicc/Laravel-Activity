@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExpensesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GroceryController;
  
 Route::resource('/grocery', GroceryController::class);
+Route::resource('/expenses', ExpensesController::class);
